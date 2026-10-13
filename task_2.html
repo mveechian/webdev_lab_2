@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registration</title>
+</head>
+<body>
+    <h1>Conference Registration Form</h1>
+    <form action" ">
+        Full Name:<br>
+        <input type="text" 
+        name="fullname" 
+        placeholder="Enter your full name" required><br><br>
+       
+        Email Address: <br>
+        <input type="email" 
+        name="email" 
+        placeholder="Enter your email address" required><br><br>
+       
+        Age: <br>
+        <input type="number" 
+        name="age"
+        placeholder="18" size="3" 
+        min="18" 
+        max="99" required><br><br>
+       
+        Gender: <br><input type="radio" 
+        name="gender" value="male" required> Male<br>
+        <input type="radio" name="gender" value="female" required> Female<br><br>
+        
+        Country of Residence: <br>
+        <select name="country" required>
+            <option value="malaysia">Malaysia</option>
+            <option value="singapore">Singapore</option>
+            <option value="indonesia">Indonesia</option>
+            <option value="thailand">Thailand</option>
+            <option value="vietnam">Vietnam</option>
+        </select><br><br>
+        
+        Areas of Interest: <br>
+        <input type="checkbox" name="interests" 
+        value="software development" placeholder="Software Development"> Software Development<br>
+        <input type="checkbox" name="interests" 
+        value="data science" placeholder="Data Science"> Data Science<br>
+        <input type="checkbox" name="interests" 
+        value="cybersecurity" placeholder="Cybersecurity"> Cybersecurity<br>
+        <input type="checkbox" name="interests" 
+        value="artificial intelligence" placeholder="Artificial Intelligence"> Artificial Intelligence<br><br>
+        
+        Experience Level: <br>
+        <input type="radio" name="experience" 
+        value="beginner" placeholder="Beginner"> Beginner<br>
+        <input type="radio" name="experience" 
+        value="intermediate" placeholder="Intermediate"> Intermediate<br>
+        <input type="radio" name="experience" 
+        value="advanced" placeholder="Advanced"> Advanced<br><br>
+        
+        Comments or Questions: <br>
+        <textarea name="comments" rows="4" cols="50" 
+        placeholder="Any comments or questions?"></textarea><br><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
